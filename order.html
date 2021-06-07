@@ -1528,155 +1528,58 @@
     <div class="kama_breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
       <div class="container"><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="https://woo-kosmetka.webdevlair.com" itemprop="item"><span itemprop="name">Главная</span></a></span><span class="kb_sep"></span> <span class="kb_title">Генераторы озона</span></div>
     </div>
-    <section class="review-block">
+    <section class="order">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-8">
-            <div class="row">
-              <div class="col-12">
-                <h1 class="title title-center">Отзывы</h1>
+            <h1 class="title title-center">Оформление заказа</h1>
+            <form action="post">
+              <nav class="order-nav"><a href="#" class="order-nav__link js-order-link">Физическое лицо</a> <a href="#" class="order-nav__link js-order-link">Юридическое лицо</a></nav>
+              <h2 class="order__title">Информация о покупателе</h2>
+              <div class="tab order__block js-order-tab"><input type="text" class="form-control form__input order-form__input order-form__input-100" placeholder="Фамилия Имя Отчество"> <input type="tel" class="form-control form__input order-form__input order-form__input-50" placeholder="Ваш телефон"> <input type="email" class="form-control form__input order-form__input order-form__input-50" placeholder="Ваш email"></div>
+              <div class="tab order__block js-order-tab"><input type="text" class="form-control form__input order-form__input order-form__input-100" placeholder="Наименование компании"> <input type="text" class="form-control form__input order-form__input order-form__input-100" placeholder="Юридический адрес"> <input type="number" class="form-control form__input order-form__input order-form__input-50" placeholder="ИНН"> <input type="number" class="form-control form__input order-form__input order-form__input-50" placeholder="КПП"> <input type="tel" class="form-control form__input order-form__input order-form__input-50" placeholder="Ваш телефон"> <input type="email" class="form-control form__input order-form__input order-form__input-50" placeholder="Ваш email"></div>
+              <h2 class="order__title">Доставка</h2><span class="order-form__map"><select name="order-district" class="form-control form__input order-form__input order-form__input-100 order-form__select">
+                  <option value="Москва">Москва</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Москва">Москва</option>
+                  <option value="Москва">Москва</option>
+                </select></span>
+              <p>Выберите область/регион для вычисления стоимости доставки</p>
+              <div class="order-block__delivery">
+                <div class="order-block__check"><label for="delivery-1"><img src="img/d1.svg" alt=""></label> <input type="radio" id="delivery-1" class="form-control" name="radio-delivery" checked="checked"> <label for="delivery-1">Почтой России - <b>459 ₽</b></label></div>
+                <div class="order-block__check"><label for="delivery-2"><img src="img/d2.svg" alt=""></label> <input type="radio" id="delivery-2" class="form-control" name="radio-delivery"> <label for="delivery-2">Курьер СДЭК - <b>849 ₽</b></label></div>
+                <div class="order-block__check"><label for="delivery-3"><img src="img/d3.svg" alt=""></label> <input type="radio" id="delivery-3" class="form-control" name="radio-delivery"> <label for="delivery-3">Курьером Почты России (EMS) - <b>349 ₽</b></label></div>
+                <div class="order-block__check"><label for="delivery-4"><img src="img/d4.svg" alt=""></label> <input type="radio" id="delivery-4" class="form-control" name="radio-delivery"> <label for="delivery-4">Самовывоз</label></div>
+              </div><span class="order-form__map"><input type="text" placeholder="г. Коммунар, 188321, Ленинградская область, г. Комменар, ул. Железнодорожная, д. 2" name="order-district" class="form-control form__input order-form__input order-form__input-100"></span>
+              <p>Укажите адрес доставки</p>
+              <h2 class="order__title">Оплата</h2>
+              <div class="order-block__pay">
+                <div class="order-block__check"><label for="order-card"><img src="img/card.svg" alt=""></label> <input type="radio" id="order-card" class="form-control" name="radio-pay" checked="checked"> <label for="order-card">Банковской картой онлайн</label></div>
+                <div class="order-block__check"><label for="order-nal"><img src="img/card.svg" alt=""></label> <input type="radio" id="order-nal" class="form-control" name="radio-pay"> <label for="order-nal">Картой при получении</label></div>
+                <div class="order-block__check"><label for="order-bank"><img src="img/nal.svg" alt=""></label> <input type="radio" id="order-bank" class="form-control" name="radio-pay"> <label for="order-bank">Наличными</label></div>
               </div>
-              <div class="review-block__header d-flex justify-content-between align-items-center"><a href="#" class="review-block__btn js-reviews">написать отзыв</a> <a href="#" target="_blank"><img src="img/logomar.svg" alt=""></a></div>
-              <div class="col-12">
-                <div class="review-item">
-                  <div class="review">
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                        <div class="d-flex align-items-center">
-                          <div class="review__date">08.05.2020</div>
-                          <div class="review__rating">
-                            <ul class="rating-star">
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor. Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor.</div>
-                    </div>
-                  </div>
-                  <div class="review-answer">
-                    <div class="review-answer__arr"><img src="img/rarr.svg" alt=""></div>
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placeholder</div>
-                    </div>
-                  </div>
+              <h2 class="order__title">Комментарии</h2><textarea name="order-comment" id="order-comment" cols="30" rows="10" class="form-control form__input order__textarea" placeholder="Расскажите о пожеланиях к заказу или как улучшить работу сайта"></textarea>
+              <div class="order-result">
+                <div class="order-result__item">
+                  <p>Сумма товаров</p>
+                  <p><span>1660 ₽</span> 1660 ₽</p>
                 </div>
-              </div>
-              <div class="col-12">
-                <div class="review-item">
-                  <div class="review">
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                        <div class="d-flex align-items-center">
-                          <div class="review__date">08.05.2020</div>
-                          <div class="review__rating">
-                            <ul class="rating-star">
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor.</div>
-                      <div class="review-imgs"><a href="img/img1.jpg" class="glightbox" data-gallery="qwerqwe"><img src="img/img1.jpg" alt=""> </a><a href="img/img1.jpg" class="glightbox" data-gallery="qwerqwe"><img src="img/img1.jpg" alt=""></a></div>
-                    </div>
-                  </div>
+                <div class="order-result__item">
+                  <p>Доставка</p>
+                  <p>+660 ₽</p>
                 </div>
-              </div>
-              <div class="col-12">
-                <div class="review-item">
-                  <div class="review">
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                        <div class="d-flex align-items-center">
-                          <div class="review__date">08.05.2020</div>
-                          <div class="review__rating">
-                            <ul class="rating-star">
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor. Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor.</div>
-                    </div>
-                  </div>
-                  <div class="review-answer">
-                    <div class="review-answer__arr"><img src="img/rarr.svg" alt=""></div>
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placeholder</div>
-                    </div>
-                  </div>
+                <div class="order-result__item">
+                  <p>Итоговая скидка</p>
+                  <p>-66 ₽</p>
                 </div>
-              </div>
-              <div class="col-12">
-                <div class="review-item">
-                  <div class="review">
-                    <div class="review__content-two">
-                      <div class="review-header-two">
-                        <div class="d-flex align-items-center flex-wrap">
-                          <div class="review-img"><img src="img/ava.jpg" alt=""></div>
-                          <div class="review__name">Андрей</div>
-                        </div>
-                        <div class="d-flex align-items-center">
-                          <div class="review__date">08.05.2020</div>
-                          <div class="review__rating">
-                            <ul class="rating-star">
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li class="active"></li>
-                              <li></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="review__text">Pharetra convallis posuere morbi leo urna molestie at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices at. Justo nec ultrices dui sapien eget mi proin sed. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique. Enim neque volutpat ac tincidunt vitae semper quis lectus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Lectus sit amet est placerat in egestas erat. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Sed risus ultricies tristique nulla aliquet enim tortor.</div>
-                      <div class="review-imgs"><a href="img/img1.jpg" class="glightbox" data-gallery="qwerqwe"><img src="img/img1.jpg" alt=""> </a><a href="img/img1.jpg" class="glightbox" data-gallery="qwerqwe"><img src="img/img1.jpg" alt=""></a></div>
-                    </div>
-                  </div>
+                <div class="order-result__item order-result__item-bold">
+                  <p>ИТОГО</p>
+                  <p>1660 ₽</p>
                 </div>
-              </div>
-              <div class="col-12">
-                <nav class="navigation pagination" role="navigation">
-                  <div class="nav-links"><span aria-current="page" class="page-numbers current">1</span> <a class="page-numbers" href="https://woo-kosmetka.webdevlair.com/blog/page/2/">2</a> <span class="page-numbers dots">…</span> <a class="page-numbers" href="https://woo-kosmetka.webdevlair.com/blog/page/4/">4</a> <a class="page-numbers" href="https://woo-kosmetka.webdevlair.com/blog/page/5/">5</a> <a class="next page-numbers" href="https://woo-kosmetka.webdevlair.com/blog/page/2/">Конец</a></div>
-                </nav>
-              </div>
-            </div>
+              </div><button type="submit" class="form-control btn order__btn">оформить заказ</button>
+              <p class="order__agreement">Я согласен с условиями предоставления услуг и обработкой моих персональных данных при нажатии "Оформить заказ"</p>
+            </form>
           </div>
         </div>
       </div>
